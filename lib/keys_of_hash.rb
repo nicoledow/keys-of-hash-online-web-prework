@@ -5,7 +5,7 @@ class Hash
     keys_arr = []
     
     arguments.each do |arg|
-      arg.each do |key, val|
+      self.each do |key, val|
         binding.pry
       end
     end
