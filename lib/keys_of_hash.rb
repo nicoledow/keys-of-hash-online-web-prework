@@ -13,3 +13,5 @@ class Hash
     
   end
 end
+
+keys_of(*animals)
