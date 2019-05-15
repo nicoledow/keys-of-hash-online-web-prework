@@ -12,6 +12,7 @@ class Hash
     
     
   end
+  keys_arr
 end
 
 keys_of(*animals)
