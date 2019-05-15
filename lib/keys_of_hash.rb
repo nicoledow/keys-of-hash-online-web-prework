@@ -1,18 +1,16 @@
-require "pry"
-
 class Hash
   def keys_of(*arguments)
-    keys_arr = []
-    
-    arguments.each do |arg|
-      self.each do |key, val|
-        binding.pry
-      end
+    array = []
+    self.each do |key, value|
+      arguments.each do |i|
+        if i == value
+        array.push(key)
+        end
+      end 
     end
     
     
+    return array
   end
-  keys_arr
-end
-
-keys_of(*animals)
+  
+end 
