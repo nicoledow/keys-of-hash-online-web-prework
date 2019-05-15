@@ -1,6 +1,8 @@
 class Hash
   def keys_of(*arguments)
-    self.each 
+    keys_arr = []
+    
+    
     
     
   end
